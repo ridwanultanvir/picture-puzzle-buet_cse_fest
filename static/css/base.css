@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+a,
+a:focus,
+a:hover {
+  color: rgb(30, 0, 54);
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #fcfff6;
+  font-family: 'Inter', sans-serif;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.my-navbar {
+  background-color: #1C8957;
+  font-size: large;
+}
+
+.mybutton {
+  color: white;
+  background-color: #1C8957;
+  border-color: #0f6652;
+}
+
+.mybutton:hover {
+  color: white;
+  background-color: #16563e;
+}
+
+
+.my-table-head {
+  background-color: rgba(28, 137, 87, 0.7)!important;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}

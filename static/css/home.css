@@ -1,0 +1,19 @@
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section #bg-full-logo {
+    pointer-events: none;
+    width: 100%;
+    height: auto;
+    max-width: 100vh;
+    max-height: 100vh;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    opacity: 10%;
+}
